@@ -22,7 +22,7 @@ class LogInScreen extends StatelessWidget {
               const SizedBox(
                 height: 120,
               ),
-              const Text('Welcome Back',
+              const Text('Bem vindo de volta',
                   style: TextStyle(
                       color: Colors.red,
                       fontSize: 32,
@@ -32,7 +32,7 @@ class LogInScreen extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text('New to this app?',
+                  const Text('Novo neste aplicativo?',
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,
@@ -50,7 +50,7 @@ class LogInScreen extends StatelessWidget {
                       );
                     },
                     child: const Text(
-                      'Sign Up',
+                      'Cadastre-se',
                       style: TextStyle(
                         color: Colors.red,
                         fontSize: 18,
@@ -79,7 +79,7 @@ class LogInScreen extends StatelessWidget {
                   );
                 },
                 child: const Text(
-                  'Forgot password?',
+                  'Esqueceu sua senha?',
                   style: TextStyle(
                     color: Colors.red,
                     fontSize: 14,
@@ -92,14 +92,14 @@ class LogInScreen extends StatelessWidget {
                 height: 20,
               ),
               const PrimaryButton(
-                buttonText: 'Log In',
+                buttonText: 'LogIn',
                 routeWidget: HomeScreen(),
               ),
               const SizedBox(
                 height: 20,
               ),
               Text(
-                'Or log in with:',
+                'Ou faça o login com:',
                 style: const TextStyle(
                         color: Colors.black,
                         fontSize: 18,

@@ -22,7 +22,7 @@ class SignUpScreen extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
               child: Text(
-                'Create Account',
+                'Criar uma conta',
                 style: TextStyle(
                     color: Colors.red,
                     fontSize: 32,
@@ -37,7 +37,7 @@ class SignUpScreen extends StatelessWidget {
               child: Row(
                 children: [
                   const Text(
-                    'Already a member?',
+                    'Já tem uma conta?',
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 18,
@@ -54,7 +54,7 @@ class SignUpScreen extends StatelessWidget {
                               builder: (context) => const LogInScreen()));
                     },
                     child: const Text(
-                      'Log In',
+                      'LogIn',
                       style: TextStyle(
                         color: Colors.red,
                         fontSize: 18,
@@ -79,7 +79,7 @@ class SignUpScreen extends StatelessWidget {
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
-              child: CheckBox('Agree to terms and conditions.'),
+              child: CheckBox('Concordo com os termos e condições.'),
             ),
             const SizedBox(
               height: 20,
@@ -87,7 +87,7 @@ class SignUpScreen extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
               child: PrimaryButton(
-                buttonText: 'Sign Up',
+                buttonText: 'Cadastrar',
                 routeWidget: HomeScreen(),
               ),
             ),
@@ -97,7 +97,7 @@ class SignUpScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30),
               child: Text(
-                'Or log in with:',
+                'Ou faça o login com:',
                 style: const TextStyle(
                         color: Colors.black,
                         fontSize: 18,

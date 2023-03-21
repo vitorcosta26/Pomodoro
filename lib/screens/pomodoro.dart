@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:pomodoro/model/pomodoro_status.dart';
@@ -369,7 +368,5 @@ class _PomodoroScreenState extends State<PomodoroScreen> {
     }
   }
 
-  _playSound() {
-    print('play sound');
-  }
+  _playSound() {}
 }
