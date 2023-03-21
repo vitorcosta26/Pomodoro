@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class CheckBox extends StatefulWidget {
   final String text;
-  const CheckBox(this.text, {super.key});
+  final String link;
+  const CheckBox({super.key, required this.text, required this.link});
 
   @override
   State<CheckBox> createState() => _CheckBoxState();
@@ -40,7 +41,27 @@ class _CheckBoxState extends State<CheckBox> {
             const SizedBox(
               width: 12,
             ),
-            Text(widget.text),
+            Row(
+              children: [
+                Text(
+                  widget.text,
+                ),
+                const SizedBox(
+                  width: 5,
+                ),
+                GestureDetector(
+                  onTap: () {},
+                  child: Text(
+                    widget.link,
+                    style: const TextStyle(
+                      color: Colors.red,
+                      decoration: TextDecoration.underline,
+                      decorationThickness: 1,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         )
       ],

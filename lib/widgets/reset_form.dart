@@ -9,7 +9,7 @@ class ResetForm extends StatelessWidget {
       padding: const EdgeInsets.only(top: 20),
       child: TextFormField(
         decoration: const InputDecoration(
-            hintText: 'Email',
+            hintText: 'E-mail',
             hintStyle: TextStyle(color: Color(0xFF979797)),
             focusedBorder: UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.black))),

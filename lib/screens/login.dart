@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pomodoro/screens/home.dart';
-import 'package:pomodoro/screens/pomodoro.dart';
 import 'package:pomodoro/screens/reset_password.dart';
 import 'package:pomodoro/screens/signup.dart';
 import 'package:pomodoro/widgets/login_form.dart';

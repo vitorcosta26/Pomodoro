@@ -13,8 +13,8 @@ class _LogInFormState extends State<LogInForm> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        buildInputForm('Email', false),
-        buildInputForm('Password', true),
+        buildInputForm('E-mail', false),
+        buildInputForm('Senha', true),
       ],
     );
   }

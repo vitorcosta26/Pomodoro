@@ -79,7 +79,10 @@ class SignUpScreen extends StatelessWidget {
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
-              child: CheckBox('Concordo com os termos e condições.'),
+              child: CheckBox(
+                text: 'Concordo com os',
+                link: 'termos e condições',
+              ),
             ),
             const SizedBox(
               height: 20,
