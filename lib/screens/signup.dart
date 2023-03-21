@@ -54,7 +54,7 @@ class SignUpScreen extends StatelessWidget {
                               builder: (context) => const LogInScreen()));
                     },
                     child: const Text(
-                      'LogIn',
+                      'Login',
                       style: TextStyle(
                         color: Colors.red,
                         fontSize: 18,

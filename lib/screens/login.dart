@@ -91,7 +91,7 @@ class LogInScreen extends StatelessWidget {
                 height: 20,
               ),
               const PrimaryButton(
-                buttonText: 'LogIn',
+                buttonText: 'Login',
                 routeWidget: HomeScreen(),
               ),
               const SizedBox(
